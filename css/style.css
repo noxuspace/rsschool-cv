@@ -1,0 +1,104 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #d91e53;
+}
+a:hover {
+    color: #1f1be7;
+}
+html,
+body {
+  width: 1140px;
+  margin: 0 auto;
+  background: url("../img/bg.png") center center/cover no-repeat;
+}
+.general .general_block {
+  padding: 60px 0 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.general .general_block .name,
+.surname {
+  font-size: 57.7px;
+  font-weight: 700;
+  color: #d91e53;
+}
+.general .general_block .ava {
+  margin: 0 25px 0 25px;
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  border: 2px solid #d91e53;
+  box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.21);
+  border-radius: 100%;
+}
+.general .profession {
+  text-align: center;
+  font-size: 26.9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #d91e53;
+  padding-bottom: 60px;
+}
+.personal .skills,
+.courses {
+  text-align: center;
+  font-size: 26.9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #d91e53;
+  padding-bottom: 60px;
+}
+.lang .lang_descr {
+  text-align: center;
+  font-size: 26.9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #d91e53;
+  padding-bottom: 10px;
+}
+.lang .lang_img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #d91e53;
+  margin-bottom: 60px;
+}
+.hobbies .header {
+  text-align: center;
+  font-size: 26.9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #d91e53;
+  padding-bottom: 20px;
+}
+.hobbies .hobbies_img {
+  display: block;
+  margin: 0 auto;
+  border: 3px dotted #d91e53;
+  padding: 15px 15px 20px 15px;
+  margin-bottom: 60px;
+}
+footer {
+    padding: 0 20px 50px 20px;
+}
+.footer_divider {
+  width: 800px;
+  height: 2px;
+  background-color: #d91e53;
+  margin: 0 auto 60px auto;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_wrapper .footer_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_wrapper .footer_item .footer_img {
+    padding-right: 15px;
+}
