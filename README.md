@@ -1,1 +1,1 @@
-# rsschool-cv
+https://locizard.github.io/rsschool-cv/cv
